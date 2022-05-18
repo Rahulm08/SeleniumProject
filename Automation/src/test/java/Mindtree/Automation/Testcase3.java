@@ -14,7 +14,11 @@ public class Testcase3 {
 		System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
+		
+		//open url
 		driver.get("https://www.urbanladder.com/");
+		
+		//login with invalid details
 		driver.findElement(By.xpath("//span[@class='header-icon-link user-profile-icon']")).click();
 		driver.findElement(By.xpath("//a[@class='login-link authentication_popup']")).click();
 		driver.findElement(By.xpath("//input[@class='email required input_authentication']")).sendKeys("rahulmacherla@gmail.com");

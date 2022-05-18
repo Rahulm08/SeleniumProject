@@ -1,4 +1,4 @@
-package Mindtree.Automation;
+package mindtree.testing;
 
 import java.util.concurrent.TimeUnit;
 
@@ -6,7 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Testcase1 {
+public class AppTest {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
